@@ -1,0 +1,16 @@
+# Ignore Python virtual environment
+backend/venv/
+backend/__pycache__/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Node modules (frontend)
+frontend/node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
