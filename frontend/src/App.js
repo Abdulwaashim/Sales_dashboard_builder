@@ -15,9 +15,10 @@ export default function App() {
     if (!file) return;
     const formData = new FormData();
     formData.append("file", file);
-
+    
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:5000";
     try {
-      const res = await axios.post("http://localhost:5000/upload", formData);
+      const res = await axios.post(`${BACKEND_URL}/upload`, formData);
       setData(res.data);
     } catch (err) {
       alert("Upload failed: " + err.message);
