@@ -20,7 +20,11 @@ export default function App() {
 
 
     try {
-      const res = await axios.post(`${BACKEND_URL}/upload`, formData);
+      const res = await axios.post(`${BACKEND_URL}/upload`, formData, {
+          headers: {
+            "Content-Type": "multipart/form-data",
+        },
+      });
       setData(res.data);
     } catch (err) {
       alert("Upload failed: " + err.message);
