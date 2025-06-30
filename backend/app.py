@@ -4,7 +4,7 @@ from flask_cors import CORS
 import pandas as pd
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/upload": {"origins": "*"}})
 
 @app.route("/")
 def home():
