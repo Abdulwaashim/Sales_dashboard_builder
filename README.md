@@ -80,13 +80,13 @@ services:
 
 ### 📈 Dashboard Preview
 
-![Line Chart - Daily Sales](https://github.com/Abdulwaashim/Sales_dashboard_builder/blob/main/frontend/public/assets/Screenshot%20(1).png)
+![Line Chart - Daily Sales](https://github.com/Abdulwaashim/Sales_dashboard_builder/blob/main/frontend/public/assets/Screenshot%20(3).png)
 *Line chart shows total sales by date.*
 
 ![Donut Chart - Gender Distribution](https://github.com/Abdulwaashim/Sales_dashboard_builder/blob/main/frontend/public/assets/Screenshot%20(2).png)
 *Donut chart shows male vs female customers.*
 
-![KPIs - Summary Cards](https://github.com/Abdulwaashim/Sales_dashboard_builder/blob/main/frontend/public/assets/Screenshot%20(3).png)
+![KPIs - Summary Cards](https://github.com/Abdulwaashim/Sales_dashboard_builder/blob/main/frontend/public/assets/Screenshot%20(1).png)
 *Key metrics like Total Sales, Orders, Avg. Sale.*
 
 
