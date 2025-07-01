@@ -64,17 +64,17 @@ services:
     envVars:
       - key: MAX_CONTENT_LENGTH
         value: "5242880"  # 5MB
----
-
+```
 
 ### Common errors
+```
 | Error Message              | Cause                                            | Fix                                                            |
 |---------------------------|--------------------------------------------------|----------------------------------------------------------------|
 | Upload failed: Network Error | Backend URL misconfigured or CORS blocked     | ✅ Check `REACT_APP_BACKEND_URL` in frontend `.env`            |
 | 404 Not Found (Render)    | Route `/upload` not found or wrong `startCommand` | ✅ Ensure Flask has `@app.route('/upload')` and uses `gunicorn app:app` |
 | File too large            | Flask rejects files larger than default limit   | ✅ Set `app.config['MAX_CONTENT_LENGTH'] = 5 * 1024 * 1024`     |
 | Localhost works, deployed fails | Backend not reachable by frontend         | ✅ Ensure CORS is configured and both frontend/backend URLs are set correctly |
-
+```
 
 ## 📸 Sample Output
 
