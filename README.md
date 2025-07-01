@@ -89,12 +89,4 @@ services:
 ![KPIs - Summary Cards](assets/kpi_cards.png)
 *Key metrics like Total Sales, Orders, Avg. Sale.*
 
-# License
-```
-MIT License
-
-
----
-
-You can copy this into your `README.md` file directly. Let me know if you want to add badges, screenshots, or a live demo link too.
 
