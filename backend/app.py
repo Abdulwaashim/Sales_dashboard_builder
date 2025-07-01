@@ -3,12 +3,11 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd
 
-app = Flask(__name__)
-CORS(app, resources={r"/upload": {"origins": "*"}})
+app.config['MAX_CONTENT_LENGTH'] = 5 * 1024 * 1024  # 5MB limit
 
-@app.route("/")
-def home():
-    return "Flask backend is running!"
+app = Flask(__name__)
+CORS(app, supports_credentials=True, origins="*")
+
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
