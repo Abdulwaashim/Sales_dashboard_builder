@@ -80,13 +80,13 @@ services:
 
 ### 📈 Dashboard Preview
 
-![Line Chart - Daily Sales](assets/sales_line_chart.png)
+![Line Chart - Daily Sales](assets/Screenshot (1).png)
 *Line chart shows total sales by date.*
 
-![Donut Chart - Gender Distribution](assets/gender_donut_chart.png)
+![Donut Chart - Gender Distribution](assets/Screenshot (2).png)
 *Donut chart shows male vs female customers.*
 
-![KPIs - Summary Cards](assets/kpi_cards.png)
+![KPIs - Summary Cards](assets/Screenshot (3).png)
 *Key metrics like Total Sales, Orders, Avg. Sale.*
 
 
